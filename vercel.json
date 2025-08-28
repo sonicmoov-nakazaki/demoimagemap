@@ -1,11 +1,11 @@
 {
   "rewrites": [
-    { "source": "/imagemap/:id/1040", "destination": "/imagemap/:id/1040.png" },
-    { "source": "/imagemap/:id/(700|460|240)", "destination": "/imagemap/:id/1040.png" }
+    { "source": "/imagemap/images/1040", "destination": "/imagemap/images/1040.png" },
+    { "source": "/imagemap/images/(700|460|240)", "destination": "/imagemap/images/1040.png" }
   ],
   "headers": [
     {
-      "source": "/imagemap/:id/(1040|700|460|240)",
+      "source": "/imagemap/images/(1040|700|460|240)",
       "headers": [{ "key": "Content-Type", "value": "image/png" }]
     }
   ]
