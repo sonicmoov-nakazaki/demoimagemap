@@ -1,11 +1,11 @@
 {
   "rewrites": [
-    { "source": "/imagemap/images/1040", "destination": "/imagemap/images/1040.png" },
-    { "source": "/imagemap/images/(700|460|240)", "destination": "/imagemap/images/1040.png" }
+    { "source": "/images/1040", "destination": "/images/1040.png" },
+    { "source": "/images/(700|460|240)", "destination": "/images/1040.png" }
   ],
   "headers": [
     {
-      "source": "/imagemap/images/(1040|700|460|240)",
+      "source": "/images/(1040|700|460|240)",
       "headers": [{ "key": "Content-Type", "value": "image/png" }]
     }
   ]
